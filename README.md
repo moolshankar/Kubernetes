@@ -2,7 +2,7 @@
 
 https://minikube.sigs.k8s.io/docs/start/
 
-** start minikube cluster with **
+* start minikube cluster with *
 minikube start
 
 ** Start new deployment using command **
