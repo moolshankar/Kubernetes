@@ -11,3 +11,6 @@ kubectl run redis --image=redis --dry-run=client -o yaml > redis.yaml
 
 ## Generate yaml file for exiting pod
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+
+## Edit existing pod properties
+kubectl edit pod <pod-name>
