@@ -7,4 +7,4 @@ kubectl run nginx --image=nginx
 kubectl get pods -o wide
 
 ## Generate yml file kubernetes dry run command
-kubectl run redis --image=redis --dry-run -o yaml
+kubectl run redis --image=redis --dry-run=client -o yaml
