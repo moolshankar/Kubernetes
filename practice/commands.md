@@ -13,4 +13,4 @@ kubectl run redis --image=redis --dry-run=client -o yaml > redis.yaml
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml
 
 ## Edit existing pod properties
-kubectl edit pod <pod-name>
+kubectl edit pod pod-name
