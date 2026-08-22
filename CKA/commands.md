@@ -65,6 +65,11 @@ kubectl api-resources
 kubectl get pods --field-selector=spec.nodeName=server01
 ```
 
+## Learn more about a resource type
+```bash
+kubectl explain replicaset
+```
+
 # Create commands shortcuts for frequent long commnds
 
 ## Core shortcut
